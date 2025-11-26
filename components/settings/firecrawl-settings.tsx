@@ -41,7 +41,7 @@ export const FirecrawlSettings = ({
           Get your API key from{" "}
           <a
             className="text-primary underline"
-            href="https://firecrawl.dev"
+            href="https://firecrawl.dev/app/api-keys"
             rel="noopener noreferrer"
             target="_blank"
           >
