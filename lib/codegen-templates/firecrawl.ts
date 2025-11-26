@@ -17,7 +17,7 @@ export async function firecrawlStep(input: {
   const app = new FirecrawlApp({ apiKey: input.apiKey });
   
   if (input.mode === 'scrape' && input.url) {
-    const result = await app.scrapeUrl(input.url, {
+    const result = await app.scrape(input.url, {
       formats: (input.formats as any) || ['markdown'],
     });
     return result;
